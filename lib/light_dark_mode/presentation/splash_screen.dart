@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   void getUserType() async {
     selectedLanguage = await SessionManager().getString(SessionManager.LANGUAGE);
-    MyApp.setLocale(context, selectedLanguage.contains("en") ? const Locale("en","US"): const Locale("th",""));
+
   }
 
   @override
