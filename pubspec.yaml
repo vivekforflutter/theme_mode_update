@@ -101,5 +101,5 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/images/
-    - assets/lang/en.json
-    - assets/lang/th.json
+    - assets/lang/
+
